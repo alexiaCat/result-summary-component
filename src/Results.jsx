@@ -1,10 +1,13 @@
-
+import Reaction from '/assets/images/icon-reaction.svg';
+import Memory from '/assets/images/icon-memory.svg';
+import Verbal from '/assets/images/icon-verbal.svg';
+import Visual from '/assets/images/icon-visual.svg';
 
 export const Results = () => {
   return (
     <div className="bg-neutral-white font-hanken-grotesk w-screen h-screen flex flex-col justify-center items-center">
 
-      <div className="flex flex-col md:flex-row w-[100%] md:w-[700px] h-screen md:h-[500px] rounded-3xl shadow-xl">
+      <div className="flex flex-col md:flex-row w-[100%] md:w-[700px] h-screen md:h-[500px] rounded-3xl shadow-lg shadow-indigo-500/50">
 
         <div className="bg-gradient-to-bl from-gradients-light-slate-blue-bg to-gradients-light-royal-blue-bg rounded-t-none rounded-b-3xl md:rounded-3xl w-full md:w-[50%] flex flex-col items-center">
           <h3 className="text-neutral-light-lavender text-[18px] md:text-[22.5px] py-5 md:py-8">Your Result</h3>
@@ -22,7 +25,8 @@ export const Results = () => {
           <h3 className="text-neutral-dark-gray-blue text-[18.5px] md:text-[22.5px]">Summary</h3>
 
           <div className="bg-primary-light-red-75 text-[18px] py-3 my-5 rounded-lg flex justify-between items-center">
-            <p className="flex items-center reaction text-primary-light-red">
+            <p className="flex items-center text-primary-light-red">
+              <img class="inline-block w-[20px] h-[20px] mx-[10px]" src={Reaction} alt="Reaction"/>
               Reaction
             </p>
             <p className="flex items-center space-x-2">
@@ -34,7 +38,8 @@ export const Results = () => {
 
 
           <div className="bg-primary-orangey-yellow-80 text-[18px] py-3 rounded-lg flex justify-between items-center mb-4">
-            <p className="flex items-center memory text-primary-orangey-yellow">
+            <p className="flex items-center text-primary-orangey-yellow">
+            <img class="inline-block w-[20px] h-[20px] mx-[10px]" src={Memory} alt="Memory"/>
               Memory
             </p>
             <p className="flex items-center space-x-2">
@@ -44,7 +49,8 @@ export const Results = () => {
           </div>
 
           <div className="bg-primary-green-teal-80 text-[18px] py-3 rounded-lg flex justify-between items-center mb-4">
-            <p className="flex items-center verbal text-primary-green-teal">
+            <p className="flex items-center text-primary-green-teal">
+            <img class="inline-block w-[20px] h-[20px] mx-[10px]" src={Verbal} alt="Verbal"/>
               Verbal
             </p>
             <p className="flex items-center space-x-2">
@@ -54,7 +60,8 @@ export const Results = () => {
           </div>
 
           <div className="bg-primary-cobalt-blue-80 text-[18px] py-3 rounded-lg flex justify-between items-center mb-4">
-            <p className="flex items-center visual text-primary-cobalt-blue">
+            <p className="flex items-center text-primary-cobalt-blue">
+            <img class="inline-block w-[20px] h-[20px] mx-[10px]" src={Visual} alt="Visual"/>
               Visual
             </p>
             <p className="flex items-center space-x-2">

@@ -2,39 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-.reaction::before {
-    content: url(./assets/images/icon-reaction.svg);
-    display: inline-block; 
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px; 
-    margin-left: 10px;
-}
-
-.memory::before {
-    content: url(./assets/images/icon-memory.svg);
-    display: inline-block; 
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px; 
-    margin-left: 10px;
-}
-
-.verbal::before {
-    content: url(./assets/images/icon-verbal.svg);
-    display: inline-block; 
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px; 
-    margin-left: 10px;
-}
-.visual::before {
-    content: url(./assets/images/icon-visual.svg);
-    display: inline-block; 
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px; 
-    margin-left: 10px;
-}
